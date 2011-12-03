@@ -46,4 +46,31 @@
 			}
 		});
 	});
+	
+	$('.slider_control').live('click',function (event) {
+		$img = $('.slider:visible');
+		$img.hide();
+		
+		if($(this).hasClass('right')){			
+			$img.next('.slider').show();
+		} else {
+			$img.prev('.slider').show();
+		}
+		
+		hideArrows();
+	});
+	
+	var hideArrows = function() {
+		if($('.slider:visible').next('.slider').length == 0) {
+			$('.right').hide();
+		} else {
+			$('.right').show();
+		}
+		
+		if($('.slider:visible').prev('.slider').length == 0) {
+			$('.left').hide();
+		} else {
+			$('.left').show();
+		}
+	}
 });

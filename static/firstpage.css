@@ -27,7 +27,16 @@
 	left:80%;
 }
 
-.jtextfill span{
-	margin: auto;
-	width:100%;
+.left {
+	position:absolute;
+	top:230px;
+	left:10px;
+	cursor:pointer;
+}
+
+.right {
+	position:absolute;
+	top:230px;
+	left:250px;
+	cursor:pointer;
 }
