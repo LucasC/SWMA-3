@@ -1,12 +1,3 @@
-#entete{
-	width:100%;
-	height:15%;
-	border:1px solid #575656;
-	border-bottom:1px solid #80807f;
-	background-color: #575656; 
-	text-align: center;
-}
-
 #carte{
 	position: relative;
 	margin-top:10px;

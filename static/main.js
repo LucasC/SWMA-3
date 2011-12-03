@@ -2,49 +2,53 @@
  jQuery(function( $ ){			  
 	// Code here
 	container = $('#content');
-	
+	ready = 1;
 	
 	// Prevent click on link
 	$('a').live('click',function (event) {
 		event.preventDefault();
-		console.log("Link clicked :");
-		console.log(this);
 		
-		var link = $(this).attr('href'),
-			vslide = $(this).hasClass('vslide'),
-			hslide_ltor = $(this).hasClass('hslide_ltor');
+		if(ready == 1) {
+			ready = 0;
 		
-		$.ajax({
-			dataType: 'html',
-			type: 'GET',
-			url: link,
-			success:function(data){					
-				container.empty().append(data);
-				
-				var container_step = container.offset();
+			var link = $(this).attr('href'),
+				vslide = $(this).hasClass('vslide'),
+				hslide_ltor = $(this).hasClass('hslide_ltor');
+			
+			$.ajax({
+				dataType: 'html',
+				type: 'GET',
+				url: link,
+				cache: false,
+				success:function(data){					
+					container.empty().append(data);
+					
+					var container_step = container.offset();
 
-				if(vslide){					
-					container.offset({ top: container_step.top + 600, left: container_step.left });
-					container.animate({
-						"top": '-=600',
-						}, 400, 'linear');
-				} else {
-					if(hslide_ltor) {
-						container.offset({ top: container_step.top, left: container_step.left - 300 });
+					if(vslide){					
+						container.offset({ top: container_step.top + 600, left: container_step.left });
 						container.animate({
-							"left": '+=300',
-							}, 200, 'linear');
+							"top": '-=600',
+							}, 400, 'linear');
 					} else {
-						container.offset({ top: container_step.top, left: container_step.left + 300 });
-						container.animate({
-							"left": '-=300',
-							}, 200, 'linear');
+						if(hslide_ltor) {
+							container.offset({ top: container_step.top, left: container_step.left - 300 });
+							container.animate({
+								"left": '+=300',
+								}, 200, 'linear');
+						} else {
+							container.offset({ top: container_step.top, left: container_step.left + 300 });
+							container.animate({
+								"left": '-=300',
+								}, 200, 'linear');
+						}
 					}
+			
+					ready = 1;
+					return false;
 				}
-		
-				return false;
-			}
-		});
+			});
+		}
 	});
 	
 	$('.slider_control').live('click',function (event) {
