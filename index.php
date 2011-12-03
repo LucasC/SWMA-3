@@ -7,7 +7,8 @@
 	<link href="static/firstpage.css" media="all" rel="stylesheet" type="text/css" />
 	<link href="static/map.css" media="all" rel="stylesheet" type="text/css" />
 	<link rel="shortcut icon" href="favicon.ico" />
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="static/main.js"></script>
 </head>
 
@@ -15,7 +16,10 @@
 <div id="logo_wrapper"></div>
 <div id="main_wrapper">
 	<div id="content_wrapper">
-		<?php include('content/home.html'); ?>
+		<div id="statusbar"></div>
+		<div id="content">
+			<?php include('content/home.html'); ?>
+		</div>
 	</div>
 </div>
 <div id="keypoint_wrapper">
