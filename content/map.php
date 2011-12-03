@@ -3,5 +3,5 @@
 </div>
 
 <div id="carte">
-<a href="content/phraseami.html"><img src=static/img/maps.png alt="map"></a>
+<a href="content/phraseami.html"><img src=static/img/maptest.png alt="map"></a>
 </div>
