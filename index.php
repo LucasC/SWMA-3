@@ -13,13 +13,17 @@
 </head>
 
 <body>
-<div id="logo_wrapper"></div>
+<div id="logo_wrapper">
+	<img src="static/img/icone.png" width="300px" height="300px"/><br/>
+	<img src="static/img/nom_icone.png" width="300px" />
+</div>
 <div id="main_wrapper">
 	<div id="content_wrapper">
 		<div id="statusbar"></div>
 		<div id="content">
 			<?php include('content/home.html'); ?>
 		</div>
+		<div id="menubar"></div>
 	</div>
 </div>
 <div id="keypoint_wrapper">

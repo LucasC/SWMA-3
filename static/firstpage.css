@@ -1,32 +1,19 @@
-#maPhrase {
-	background-color: green;
-	position:relative;
-	margin-top:20px;
-	margin-left:auto;
-	margin-right:auto;
-	width:270px;
-	height:150px;
-	text-align: center;
+#header {
+	width:100%;
+	height:10%;
+	border:1px solid #575656;
+	border-bottom:1px solid #80807f;
+	background-color: #575656;
 }
 
 #miniJeux {
-	background-color: blue;
-	position:relative;
-	margin-top:20px;
-	margin-left:auto;
-	margin-right:auto;
-	width:100px;
-	height:50px;
-	text-align: center;
+	height: 70%;
 }
 
 #map {
-	background-color: red;
-	position:relative;
-	margin-top:20px;
-	margin-left:auto;
-	margin-right:auto;
-	width:100px;
-	height:50px;
-	text-align: center;
+	width:100%;
+	height:20%;
+	border:1px solid #878786;
+	border-top:1px solid #a1a1a0;
+	background-color: #878786;
 }
