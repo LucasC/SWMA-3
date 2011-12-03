@@ -1,0 +1,19 @@
+#entete{
+	background-color: green;
+	position:relative;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:270px;
+	height:50px;
+	text-align: center;
+}
+
+#carte{
+	position: relative;
+	margin-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+	width:278px;
+	height:362px;
+}
