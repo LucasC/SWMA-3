@@ -13,7 +13,7 @@
 <div id="logo_wrapper"></div>
 <div id="main_wrapper">
 	<div id="content_wrapper">
-		Hello world!
+		<?php include('content/home.html'); ?>
 	</div>
 </div>
 <div id="keypoint_wrapper">

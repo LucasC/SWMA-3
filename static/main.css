@@ -18,8 +18,8 @@ body {
 	float: left;
 	margin-left:200px;
 	width:350px;
-	height:650px;
-	background-image: url("../static/img/iphonebackground2.png");
+	height:780px;
+	background-image: url("../static/img/iphonebackground.png");
     background-repeat: no-repeat;
 	position: relative;
 }
@@ -42,9 +42,9 @@ body {
 
 #content_wrapper {
 	position:absolute;
-	top:138px;
-	left:27px;
-	width:248px;
-	height:450px;
+	top:166px;
+	left:33px;
+	width:297px;
+	height:445px;
 	border:1px solid red;
 }
