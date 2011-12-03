@@ -10,7 +10,6 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="static/main.js"></script>
-	<script type="text/javascript" src="static/textfill.js"></script>
 </head>
 
 <body>
@@ -24,7 +23,12 @@
 		<div id="content">
 			<?php include('content/home.html'); ?>
 		</div>
-		<div id="menubar"></div>
+		<div id="menubar">
+			<a href="content/stats.html"><img class="stats" src="static/img/icon_stats.png" width="60" height="67"/></a>
+			<a href="content/games.html"><img class="jeux" src="static/img/icon_jeux.png" width="60" height="67" /></a>
+			<a href="content/cagnotte.html"><img class="cagnotte" src="static/img/icon_cagnotte.png" width="60" height="67" /></a>
+			<a href="content/1up.html"><img class="1up" src="static/img/icon_1up.png" width="60" height="67" /></a>
+		</div>
 	</div>
 </div>
 <div id="keypoint_wrapper">
