@@ -10,6 +10,15 @@
 </head>
 
 <body>
-hello world
+<div id="logo_wrapper"></div>
+<div id="main_wrapper">
+	<div id="content_wrapper">
+		Hello world!
+	</div>
+</div>
+<div id="keypoint_wrapper">
+1- On est bien<br/>2- voir trop!
+</div>
+<div class="clear"></div>
 </body>
 </html>
