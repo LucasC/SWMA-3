@@ -30,7 +30,7 @@
 			<span class="1up"><img src="static/img/icon_1up.png" width="60" height="67" /></span>
 		</div>
 	</div>
-	<div id="popup" style="display:none;"><img src="static/img/marqueurmap2.png" width="60" height="60" /></div>
+	<div id="popup" style="display:none;"><img src="static/img/ajouter-cagnotte.png" width="250" height="127" /></div>
 </div>
 <div class="clear"></div>
 </body>

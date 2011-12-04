@@ -102,6 +102,6 @@ body {
 #popup {
 	position:absolute;
 	z-index:999;
-	top:470px;
-	left:260px;
+	top:400px;
+	left:40px;
 }
