@@ -3,10 +3,15 @@
 	padding:0;
 }
 
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+
 body {
    background-image: url("../static/img/patterns2.png");
    background-repeat: repeat;
    background-attachment: fixed ;
+   overflow:hidden;
 }
 
 .clear {
@@ -88,6 +93,23 @@ body {
 	width:18%;
 	float:left;
 	margin-left:2%;
+}
+
+#more {
+	width:10%;
+	float:left;
+	margin-top:5px;
+	margin-left:20px;
+	
+}
+
+.title_stat {
+	width:55%;
+	margin-top:15px;
+	font-family: Helvetica;
+	font-size: 24px;
+	color: #fff;
+	float:left;
 }
 
 #entete{

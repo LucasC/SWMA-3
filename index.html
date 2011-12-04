@@ -24,7 +24,29 @@
 	<div id="content_wrapper">
 		<div id="statusbar"></div>
 		<div id="content">
-			<?php include('content/home.html'); ?>
+			<!-- HOME -->
+			<div id="header">
+				<img src="static/img/options.png" id="option" />
+			</div>
+
+			<div id="miniJeux">
+				<div class="slider_container">
+					<a href="content/listephrases.html">
+						<img class="slider" src="static/img/phrase1.png" />
+						<img class="slider" style="display:none;" src="static/img/phrase2.png" />
+						<img class="slider" style="display:none;" src="static/img/phrase3.png" />
+					</a>
+				</div>
+				<img class="slider_control left" style="display:none;" src="static/img/left.png" />
+				<img class="slider_control right" src="static/img/right.png" />
+			</div>
+
+			<div id="map">
+				<a href="content/map.html">
+					<img src="static/img/mapbutton.png" />
+				</a>
+			</div>
+			<!-- END HOME -->
 		</div>
 		<div id="menubar">
 			<a href="content/stats.html"><img class="stats" src="static/img/icon_stats.png" width="60" height="67"/></a>
