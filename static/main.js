@@ -14,7 +14,7 @@
 			var link = $(this).attr('href'),
 				vslide = $(this).hasClass('vslide'),
 				hslide_ltor = $(this).hasClass('hslide_ltor');
-			
+				
 			$.ajax({
 				dataType: 'html',
 				type: 'GET',
@@ -77,4 +77,18 @@
 			$('.left').show();
 		}
 	}
+	
+	$('.1up').live('click',function () {
+		$this = $(this);
+		
+		$this.html('<img src="static/img/icon_1up_green.png" width="60" height="67" />');
+		$('#popup').fadeIn('slow', function() {
+			// Animation complete
+			$(this).delay(1000);
+			console.log($(this));
+			$(this).fadeOut('slow', function() {
+				$this.html('<img src="static/img/icon_1up.png" width="60" height="67" />');
+			});
+		});
+	});
 });
