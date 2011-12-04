@@ -27,12 +27,10 @@
 			<a href="content/stats.html"><img class="stats" src="static/img/icon_stats.png" width="60" height="67"/></a>
 			<a href="content/games.html"><img class="jeux" src="static/img/icon_jeux.png" width="60" height="67" /></a>
 			<a href="content/cagnotte.html"><img class="cagnotte" src="static/img/icon_cagnotte.png" width="60" height="67" /></a>
-			<a href="content/1up.html"><img class="1up" src="static/img/icon_1up.png" width="60" height="67" /></a>
+			<span class="1up"><img src="static/img/icon_1up.png" width="60" height="67" /></span>
 		</div>
 	</div>
-</div>
-<div id="keypoint_wrapper">
-1- On est bien<br/>2- voir trop!
+	<div id="popup" style="display:none;"><img src="static/img/marqueurmap2.png" width="60" height="60" /></div>
 </div>
 <div class="clear"></div>
 </body>
