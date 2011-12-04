@@ -32,9 +32,6 @@
 	</div>
 	<div id="popup" style="display:none;"><img src="static/img/marqueurmap2.png" width="60" height="60" /></div>
 </div>
-<div id="keypoint_wrapper">
-1- On est bien<br/>2- voir trop!
-</div>
 <div class="clear"></div>
 </body>
 </html>

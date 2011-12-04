@@ -32,12 +32,6 @@ body {
 	height:500px;
 }
 
-#keypoint_wrapper {
-	float:left;
-	margin-top:50px;
-	margin-left:50px;
-}
-
 #content_wrapper {
 	position:absolute;
 	top:166px;
